@@ -1,0 +1,26 @@
+{
+  "name": "@eddlondon/commitlint-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "husky",
+    "commitlint",
+    "conventionalcommits",
+    "eddlondon"
+  ],
+  "scripts": {
+    "push": "npm version patch && git push",
+    "push-minor": "npm version minor && git push",
+    "push-major": "npm version major && git push"
+  },
+  "author": "eddlondon",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "conventional-changelog-conventionalcommits": "^5.0.0"
+  }
+}
