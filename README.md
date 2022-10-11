@@ -11,12 +11,31 @@ specifications.
 
 ## Installation
 
-`npm i @edd/commitlint-config`
-`yarn add @edd/commitlint-config`
+### install commitlint
+
+`npm install --save-dev @commitlint/{cli,config-conventional}`
+
+`yarn add @commitlint/{cli,config-conventional} -D`
+
+### Install husky
+
+`npm install husky --save-dev`
+
+`yarn add husky --dev`
+
+#### activate hooks
+
+`npx husky install`
+
+`yarn husky install`
+
+### Add hook
+
+`npx husky add .husky/commit-msg "npx --no -- commitlint --edit ${1}"`
 
 ## Usage
 
-- create a file called `.commitlintrc.json` in root directory of application
+- create a file called `.commitlintrc.json` in root directory of application where .git file is located.
 - paste the following snippet <code>{<br/> &nbsp;&nbsp;extends: ['@eddlondon'];<br/>}</code>.
 
 ## Publish
