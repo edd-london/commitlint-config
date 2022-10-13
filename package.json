@@ -1,6 +1,6 @@
 {
   "name": "@eddlondon/commitlint-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Our default export contains rules related to commits by following conventional commits specifications",
   "main": "index.js",
   "keywords": [
