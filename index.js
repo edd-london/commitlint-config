@@ -29,6 +29,8 @@ module.exports = {
         "revert",
         "style",
         "test",
+        "content",
+        "security",
       ],
     ],
   },
